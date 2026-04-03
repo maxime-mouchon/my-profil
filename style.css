@@ -1,0 +1,148 @@
+body {
+
+    background: linear-gradient(to left, #D7EFFD, #6CA5E2);
+
+	color: #1A2B4C;
+	font-family: Audiowide;
+
+#dad-div : {
+	border:none;
+}
+
+}
+h1 {
+	text-shadow: 2px 2px 4px rgba(170,0,170, 0.7);
+	text-align:center ;
+	font-family: Zen Dots;
+	font-weight: 200;
+	letter-spacing: 2px;
+	font-size: 50px;
+	line-height: 2.0;
+
+
+}
+h2 {
+	text-shadow: 2px 2px 4px rgba(170,0,170, 0.7);
+	text-align:center ;
+	font-family: Audiowide;
+	margin-bottom: 50px;
+
+}
+p{
+	text-shadow: 2px 2px 4px rgba(170,0,170, 0.7);
+	text-align: center;
+}
+a {
+	
+	text-decoration: none;
+	color:#36413E ;
+	font-weight: bolder;
+	font-family: Audiowide;
+	transition: color 0.3s ease;
+   
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+div{
+	width: 950px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.45);
+	border:2px solid rgba(30, 30, 30, 0.6);
+	background: linear-gradient(to right, #4A7856, #C2D8B9)
+	padding: 5px;
+	margin-bottom: 30px;
+
+}
+img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border:4px solid rgba(250, 220, 130, 1.0) ;
+	box-shadow: 10px 10px 10px rgba(250, 220, 130, 1.0);
+}
+.icones {
+  list-style: none;          
+  padding: 0;                
+  margin: 10 auto;            
+  display: flex;             
+  justify-content: center;   
+  gap: 220px;                 
+}
+
+.icones li {
+  font-size: 50px; 
+
+}
+
+.dégradé
+ {
+  
+  background: linear-gradient(to right, #E6C1E9, #300434);
+  
+  -webkit-background-clip: text; 
+  
+  background-clip: text;
+  color: transparent;
+}
+
+
+.container {
+	width: 950px;
+	margin:40px auto;
+}
+@media(max-width: 900px) {
+
+.container{
+	width: 800px;
+}
+}
+@media(max-width: 760px) {
+
+.container{
+	width: 600px;
+}
+@media(max-width: 600px) {
+
+.container{
+	width: 500px;
+}
+}
+
+@media(max-width: 500px) {
+
+.container{
+	width: 400px;
+}
+}
+
+}
+@media(max-width: 300px) {
+
+.container{
+	width: 200px;
+}
+}
+@media(max-width: 200px) {
+
+.container{
+	width: 180px;
+}
+}
+.buton{
+	background-color: white;
+	padding: 15px 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+.buton:hover {
+	background-color: black;
+}
+#id{
+	margin: 20px auto;
+}
